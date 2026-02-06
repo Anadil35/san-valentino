@@ -67,6 +67,24 @@ body {
     transition: transform 0.4s ease;
 }
 
+.right_photo{
+    position: absolute;
+    top: 250px;
+    right: 200px;
+    transform: translateY(-50%);
+    width: 300px;
+    z-index: 100;
+}
+
+.left_photo{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    transform: translateY(-50%);
+    width: 300px;
+    z-index: 100;
+}
+
 /* Opening effect */
 .open .flap {
     transform: rotateX(180deg);
