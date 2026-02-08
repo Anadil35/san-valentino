@@ -73,7 +73,6 @@ body {
     right: 200px;
     transform: translateY(-50%);
     width: 300px;
-    z-index: 100;
 }
 
 .left_photo{
@@ -82,7 +81,6 @@ body {
     left: 200px;
     transform: translateY(-50%);
     width: 300px;
-    z-index: 100;
 }
 
 /* Opening effect */
@@ -181,5 +179,33 @@ body {
     100% {
         opacity: 0;
         transform: scale(0);
+    }
+}
+
+@media (max-width: 480px) {
+    .reset button {
+        margin: 90px 20px 20px 20px ;
+    }
+
+    .left_photo {
+        top: 185px;
+        left: 50px;
+        width: 150px;
+    }
+
+    .right_photo {
+        top: 185px;
+        right: 50px;
+        width: 150px;
+    }
+
+    .valentine {
+        font-size: 25px;
+        margin-top: 40px;
+    }
+
+    .envelope-wrapper {
+        height: 300px;
+        padding-bottom: 20px;
     }
 }
